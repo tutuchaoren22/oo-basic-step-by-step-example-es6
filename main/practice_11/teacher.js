@@ -28,17 +28,9 @@ class Teacher extends Person {
         for (let i = 0; i < this.klasses.length; i++) {
             if (this.klasses[i].isIn(student)) {
                 return true;
-                break;
             }
         }
     }
 
 }
 module.exports = Teacher;
-// 当学生加入Teacher教的班级的时候，Teacher会打印一个句话，形如：
-
-// >I am Tom. I know Jerry has joined Class 2.
-
-// 当学生成为Teacher教的班级的班长的时候，Teacher会打印一句话，形如：
-
-// >I am Tom. I know Jerry become Leader of Class 2.

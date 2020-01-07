@@ -28,7 +28,6 @@ class Teacher extends Person {
         for (let i = 0; i < this.klasses.length; i++) {
             if (this.klasses[i].isIn(student)) {
                 return true;
-                break;
             }
         }
     }
